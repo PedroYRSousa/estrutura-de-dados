@@ -160,3 +160,8 @@ ptr = (char *)malloc(sizeof(char));
 // liberando
 free(ptr);
 ~~~
+
+# Estruturas
+Para não deixar este documento grande irei dividir a analise das estruturas em outros documentos. Recomendo ver uma por uma seguindo a ordem aqui.
+
+### [Arrays](./Estruturas/Arrays/Arrays.md)
