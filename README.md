@@ -164,4 +164,6 @@ free(ptr);
 # Estruturas
 Para não deixar este documento grande irei dividir a analise das estruturas em outros documentos. Recomendo ver uma por uma seguindo a ordem aqui.
 
+Para organizar melhor iremos fazer as seguintes operações: **Adicionar**, **Remover**, **Atualizar** e **Percorrer**. Não iremos ordenar, pois isso requer um tópico especial.
+
 ### [Arrays](./Estruturas/Arrays/Arrays.md)
