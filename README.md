@@ -110,3 +110,53 @@ Neste caso temos o maior nível como O(n²), ou seja é uma curva exponencial. T
 </center>
 
 Vamos abordar o calculo das outras a medidas que avançamos nos estudos de estruturas como arvores por exemplo.
+
+# Alocação dinâmica de memória
+
+Podemos manipular seu espaço de memória com alguns métodos da biblioteca *stdlib.h* (malloc e free), isso se chama alocação dinâmica de memória. 
+
+## sizeof
+Este operador básico permite saber quantos Bytes são ocupados por um tipo de variável, usaremos ele para termos os tamanhos corretos.
+
+Sintaxe:
+> sizeof(type) - retorna um inteiro
+>> char - 1 Byte
+>>
+>> short - 2 Bytes
+>>
+>> int - 4 Bytes
+>>
+>> long - 4 Bytes
+>>
+>> double - 8 Bytes
+>> 
+>> long double - 12 Bytes
+
+
+## malloc
+Este método aloca espaço para um bloco de Bytes na memoria RAM.
+
+Sintaxe:
+> malloc(int) - retorna o bloco de um endereço de memoria.
+
+~~~
+// Alocando memoria para um char
+char *ptr = null;
+ptr = (char *)malloc(sizeof(char));
+~~~
+
+O retorno do malloc é um tipo genérico 'void *', devemos armazenar o bloco em um ponteiro do tipo apropriado e por isso é bom explicitar o tipo do retorno.
+
+## free
+Este método libera o uso de memoria da alocação dinâmica, existe um detalhe, não se pode usar free para uma parte do que foi alocado por malloc, todo o bloco deve ser liberado.
+
+Sintaxe:
+> free(ponteiro)
+
+~~~
+// Alocando memoria para um char
+char *ptr = null;
+ptr = (char *)malloc(sizeof(char));
+// liberando
+free(ptr);
+~~~
