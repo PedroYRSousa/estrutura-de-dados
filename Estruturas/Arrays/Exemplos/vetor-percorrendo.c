@@ -3,6 +3,7 @@
 
 const int MAX_SIZE_ARRAY = 10;
 void update(int *v, int index, int value);
+void forEach(int *v);
 
 int main()
 {
