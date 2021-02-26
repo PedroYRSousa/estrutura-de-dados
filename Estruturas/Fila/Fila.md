@@ -1,6 +1,6 @@
-# Listas
+# Fila
 
-Nas listas podemos, **Adicionar** e  **Remover**.
+Na fila podemos, **Adicionar** e **Remover**.
 
 Porem existe uma regra para adicionar e remover, o primeiro elemento que for adicionado deve ser o primeiro a ser removido (FIFO).
 
