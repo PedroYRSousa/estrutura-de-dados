@@ -167,6 +167,6 @@ Para não deixar este documento grande irei dividir a analise das estruturas em 
 Para organizar melhor iremos fazer as seguintes operações: **Adicionar**, **Remover**, **Atualizar** e **Percorrer**. Não iremos ordenar, pois isso requer um tópico especial.
 
 ### [Arrays](./Estruturas/Arrays/Arrays.md)
-### [Lista](./Estruturas/Listas/Lista.md)
-### [Fila](./Estruturas/Listas/Fila.md)
-### [Pilha](./Estruturas/Listas/Pilha.md)
+### [Lista](./Estruturas/Lista/Lista.md)
+### [Fila](./Estruturas/Fila/Fila.md)
+### [Pilha](./Estruturas/Pilha/Pilha.md)
