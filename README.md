@@ -168,3 +168,4 @@ Para organizar melhor iremos fazer as seguintes operações: **Adicionar**, **Re
 
 ### [Arrays](./Estruturas/Arrays/Arrays.md)
 ### [Lista](./Estruturas/Listas/Lista.md)
+### [Fila](./Estruturas/Listas/Fila.md)
