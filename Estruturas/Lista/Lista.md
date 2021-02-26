@@ -1,6 +1,6 @@
 # Listas
 
-Nas listas podemos, **Adicionar**, **Remover**, **Atualizar**, **Percorrer** e **Realizar uma busca**.
+Nas listas podemos, **Adicionar**, **Remover**, **Percorrer** e **Realizar uma busca**.
 
 A maior diferença entre os arrays e a lista é a sua flexibilidade e a diferença em relação a outras estruturas é que a lista não segue regras especificas em seus métodos.
 
